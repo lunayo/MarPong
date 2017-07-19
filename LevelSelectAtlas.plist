@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>level screen</string>
+		<key>height</key>
+		<integer>320</integer>
+		<key>width</key>
+		<integer>480</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>level1 button up</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>17</integer>
+		<key>yLocation</key>
+		<integer>334</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>level1 button down</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>17</integer>
+		<key>yLocation</key>
+		<integer>385</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>level2 button up</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>69</integer>
+		<key>yLocation</key>
+		<integer>334</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>level2 button down</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>69</integer>
+		<key>yLocation</key>
+		<integer>385</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>level3 button up</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>121</integer>
+		<key>yLocation</key>
+		<integer>334</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>level3 button down</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>121</integer>
+		<key>yLocation</key>
+		<integer>385</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>level4 button up</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>172</integer>
+		<key>yLocation</key>
+		<integer>334</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>level4 button down</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>172</integer>
+		<key>yLocation</key>
+		<integer>385</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>level5 button up</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>223</integer>
+		<key>yLocation</key>
+		<integer>334</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>level5 button down</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>223</integer>
+		<key>yLocation</key>
+		<integer>385</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>lock button up</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>17</integer>
+		<key>yLocation</key>
+		<integer>436</integer>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BBOpenGLGameTemplateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BBOpenGLGameTemplateAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		200608BE127F1D8300636C1F /* MainMenuAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 200608BD127F1D8300636C1F /* MainMenuAtlas.png */; };
+		202599DB127C3A78000306C5 /* BBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 202599DA127C3A78000306C5 /* BBButton.m */; };
+		20304E5812A0E08400151BA5 /* BBUfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20304E5712A0E08400151BA5 /* BBUfo.m */; };
+		20304E6212A0E4E200151BA5 /* anUfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 20304E6112A0E4E200151BA5 /* anUfo.png */; };
+		20304E9A12A0EE5F00151BA5 /* BBWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20304E9912A0EE5F00151BA5 /* BBWheel.m */; };
+		20304EDB12A0F35000151BA5 /* BBChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 20304EDA12A0F35000151BA5 /* BBChain.m */; };
+		20304EE512A0F61500151BA5 /* cpWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 20304EE412A0F61500151BA5 /* cpWheel.png */; };
+		20304EE712A0F61F00151BA5 /* cpChain.png in Resources */ = {isa = PBXBuildFile; fileRef = 20304EE612A0F61F00151BA5 /* cpChain.png */; };
+		2049013A126C6A0C000462F9 /* BBWall.m in Sources */ = {isa = PBXBuildFile; fileRef = 20490139126C6A0C000462F9 /* BBWall.m */; };
+		204E1503128C2E1A0026BB00 /* Level1Atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 204E1502128C2E1A0026BB00 /* Level1Atlas.plist */; };
+		204E150C128C300E0026BB00 /* MarbleAtlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 204E150B128C300E0026BB00 /* MarbleAtlas.plist */; };
+		2060E42812B666ED00D598F1 /* BBWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060E42712B666ED00D598F1 /* BBWormhole.m */; };
+		206615E612A3F53F00673130 /* anUfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 206615E512A3F53F00673130 /* anUfo.plist */; };
+		2066160312A3FA2500673130 /* anBlackHole.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2066160212A3FA2500673130 /* anBlackHole.plist */; };
+		2066162512A3FBE800673130 /* BBBlackhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 2066162412A3FBE800673130 /* BBBlackhole.m */; };
+		206616DA12A4075F00673130 /* BBStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 206616D912A4075F00673130 /* BBStar.m */; };
+		206616DD12A40A5400673130 /* BBParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 206616DC12A40A5400673130 /* BBParticle.m */; };
+		2066170412A40CFB00673130 /* BBParticleSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2066170312A40CFB00673130 /* BBParticleSystem.m */; };
+		2066172612A4181B00673130 /* anStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2066172512A4181B00673130 /* anStar.png */; };
+		2066172812A4182C00673130 /* anStar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2066172712A4182C00673130 /* anStar.plist */; };
+		2067170612E038A800A2697E /* JarMenuAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 2067170512E038A800A2697E /* JarMenuAtlas.png */; };
+		2067170912E038E100A2697E /* JarMenuAtlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2067170812E038E100A2697E /* JarMenuAtlas.plist */; };
+		2067178B12E053F000A2697E /* BBMarbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2067178A12E053F000A2697E /* BBMarbleButton.m */; };
+		206717D112E058A200A2697E /* BBMarbleText.m in Sources */ = {isa = PBXBuildFile; fileRef = 206717D012E058A200A2697E /* BBMarbleText.m */; };
+		20735F5412BE238A00BD14ED /* BBArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 20735F5312BE238A00BD14ED /* BBArrow.m */; };
+		207F18A812DD8B4400E4A111 /* BBTexturedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 207F18A712DD8B4400E4A111 /* BBTexturedImage.m */; };
+		207F192F12DDC19A00E4A111 /* ScoreboardAtlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 207F192E12DDC19A00E4A111 /* ScoreboardAtlas.plist */; };
+		207F1B4612DDE02D00E4A111 /* BBPongoScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 207F1B4512DDE02D00E4A111 /* BBPongoScore.m */; };
+		2083986712E821F800296A80 /* BBEditorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2083986612E821F800296A80 /* BBEditorObject.m */; };
+		2084699C12A0D05B00072FA8 /* Level2Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 2084699B12A0D05B00072FA8 /* Level2Atlas.png */; };
+		2084699F12A0D09E00072FA8 /* Level2Atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2084699E12A0D09E00072FA8 /* Level2Atlas.plist */; };
+		208469A812A0D24800072FA8 /* Level3Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 208469A712A0D24800072FA8 /* Level3Atlas.png */; };
+		208469AA12A0D2FB00072FA8 /* Level3Atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 208469A912A0D2FB00072FA8 /* Level3Atlas.plist */; };
+		208469C212A0D5C000072FA8 /* BBAnimatedQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 208469C112A0D5C000072FA8 /* BBAnimatedQuad.m */; };
+		2088A52C1303EB970094F349 /* BBLogBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2088A52B1303EB970094F349 /* BBLogBoard.m */; };
+		208CD6591251022500F4D8FE /* BBStaticMarble.m in Sources */ = {isa = PBXBuildFile; fileRef = 208CD6581251022500F4D8FE /* BBStaticMarble.m */; };
+		208CD69D125106EB00F4D8FE /* BBCollider.m in Sources */ = {isa = PBXBuildFile; fileRef = 208CD69C125106EB00F4D8FE /* BBCollider.m */; };
+		208CD7041251106C00F4D8FE /* BBCollisionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208CD7031251106C00F4D8FE /* BBCollisionController.m */; };
+		208CF0E612DC3F7800A91B1B /* BBScoreBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 208CF0E512DC3F7800A91B1B /* BBScoreBoard.m */; };
+		20957A3A1303C15E00F49917 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 20957A391303C15E00F49917 /* icon.png */; };
+		20957A5D1303C74300F49917 /* addObjectBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 20957A5C1303C74300F49917 /* addObjectBoard.m */; };
+		20957A621303CD5100F49917 /* WallAtlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20957A611303CD5100F49917 /* WallAtlas.plist */; };
+		209896EE12704981006737D5 /* BBScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 209896ED12704981006737D5 /* BBScore.m */; };
+		209896F112704A38006737D5 /* BBScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209896F012704A38006737D5 /* BBScoreController.m */; };
+		20A0295312757F3000B64694 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A0295212757F3000B64694 /* Texture2D.m */; };
+		20A029641275846C00B64694 /* BBText.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A029631275846C00B64694 /* BBText.m */; };
+		20A29A8212EB588900F251E3 /* anBlackHole.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A29A8112EB588900F251E3 /* anBlackHole.png */; };
+		20A29A8412EB58A200F251E3 /* Object Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20A29A8312EB58A200F251E3 /* Object Data.plist */; };
+		20AA2E061283FFDA001A4918 /* BBRope.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AA2E051283FFDA001A4918 /* BBRope.m */; };
+		20AA2EA712841231001A4918 /* BBMarbleBooster.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AA2EA612841231001A4918 /* BBMarbleBooster.m */; };
+		20B06BB4128EDFCC00CDAEF8 /* NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B06BB3128EDFCC00CDAEF8 /* NSString.m */; };
+		20C3F95B12F5923900FBDA1D /* BBTextBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C3F95A12F5923900FBDA1D /* BBTextBox.m */; };
+		20C3FACB12F5C7E800FBDA1D /* ButtonHelpAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C3FACA12F5C7E800FBDA1D /* ButtonHelpAtlas.png */; };
+		20C3FACD12F5C80700FBDA1D /* ButtonHelpAtlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20C3FACC12F5C80700FBDA1D /* ButtonHelpAtlas.plist */; };
+		20C85A9A12EC1A36004935F3 /* Tutorial1Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C85A9912EC1A36004935F3 /* Tutorial1Atlas.png */; };
+		20C85A9D12EC1A3D004935F3 /* Tutorial2Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C85A9B12EC1A3D004935F3 /* Tutorial2Atlas.png */; };
+		20C85A9E12EC1A3D004935F3 /* Tutorial3Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C85A9C12EC1A3D004935F3 /* Tutorial3Atlas.png */; };
+		20C85AA112EC1A6B004935F3 /* Tutorial1Atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20C85AA012EC1A6B004935F3 /* Tutorial1Atlas.plist */; };
+		20C85B3212EC2D2C004935F3 /* Tutorial2Atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20C85B3112EC2D2C004935F3 /* Tutorial2Atlas.plist */; };
+		20C85B3412EC2D33004935F3 /* Tutorial3Atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20C85B3312EC2D33004935F3 /* Tutorial3Atlas.plist */; };
+		20C85B4412EC323F004935F3 /* SelectVersusAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C85B4312EC323F004935F3 /* SelectVersusAtlas.png */; };
+		20C85B4812EC3275004935F3 /* SelectVersusAtlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20C85B4712EC3275004935F3 /* SelectVersusAtlas.plist */; };
+		20D083E51296C5A9004C6476 /* BBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D083E41296C5A9004C6476 /* BBPlayer.m */; };
+		20D5E326127A0030000E61AA /* BBTexturedQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D5E325127A0030000E61AA /* BBTexturedQuad.m */; };
+		20D5E329127A00B9000E61AA /* BBMaterialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D5E328127A00B9000E61AA /* BBMaterialController.m */; };
+		20D82CCF1297A10F0076FE09 /* Level1Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20D82CCE1297A10F0076FE09 /* Level1Atlas.png */; };
+		20D8B0EE12E9DBBF00DE8374 /* BBEditorBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D8B0ED12E9DBBF00DE8374 /* BBEditorBoard.m */; };
+		20D8B12512E9DE8B00DE8374 /* Level5Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20D8B12412E9DE8B00DE8374 /* Level5Atlas.png */; };
+		20DCC322128863A40037FD95 /* LevelSelectAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DCC321128863A40037FD95 /* LevelSelectAtlas.png */; };
+		20DCC331128863E60037FD95 /* LevelSelectAtlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20DCC330128863E60037FD95 /* LevelSelectAtlas.plist */; };
+		20DCD223127EBC7000B3A1CE /* BBTexturedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DCD222127EBC7000B3A1CE /* BBTexturedButton.m */; };
+		20EE1A2D12324F2F006B2730 /* BBMobileObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EE1A2C12324F2F006B2730 /* BBMobileObject.m */; };
+		20EE1A3012325061006B2730 /* BBMarble.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EE1A2F12325061006B2730 /* BBMarble.m */; };
+		20EF2ABD127F064700B83C64 /* BBBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EF2ABC127F064700B83C64 /* BBBackground.m */; };
+		20EF2AC1127F084C00B83C64 /* MainMenuAtlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20EF2AC0127F084C00B83C64 /* MainMenuAtlas.plist */; };
+		20F193F412E16C86003C4833 /* JarMenu2Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F193F312E16C86003C4833 /* JarMenu2Atlas.png */; };
+		20F193F712E16CAD003C4833 /* JarMenu2Atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F193F612E16CAD003C4833 /* JarMenu2Atlas.plist */; };
+		20F8BDBC1275DDC500106941 /* BBLevelReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F8BDBB1275DDC500106941 /* BBLevelReader.m */; };
+		20F9FCD012E2EC350066F427 /* VSScoreBoardAtlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F9FCCE12E2EC350066F427 /* VSScoreBoardAtlas.plist */; };
+		20F9FCD112E2EC350066F427 /* VSScoreBoardAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F9FCCF12E2EC350066F427 /* VSScoreBoardAtlas.png */; };
+		20F9FCD412E2EC420066F427 /* BBVSScoreBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F9FCD312E2EC420066F427 /* BBVSScoreBoard.m */; };
+		20F9FD6F12E2F6260066F427 /* ScoreboardAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F9FD6E12E2F6260066F427 /* ScoreboardAtlas.png */; };
+		20F9FDE012E304BB0066F427 /* ResumeAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F9FDDF12E304BB0066F427 /* ResumeAtlas.png */; };
+		20F9FDE412E304D80066F427 /* ResumeAtlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F9FDE312E304D80066F427 /* ResumeAtlas.plist */; };
+		20F9FDE712E305B60066F427 /* ButtonAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F9FDE612E305B60066F427 /* ButtonAtlas.png */; };
+		20F9FDE912E305D90066F427 /* ButtonAtlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F9FDE812E305D90066F427 /* ButtonAtlas.plist */; };
+		20FD495912E43D860042E281 /* BBSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FD495812E43D860042E281 /* BBSelectButton.m */; };
+		20FD4A2E12E448C40042E281 /* MarbleAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 20FD4A2D12E448C40042E281 /* MarbleAtlas.png */; };
+		20FD4AD712E459B50042E281 /* BBResumeBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FD4AD612E459B50042E281 /* BBResumeBoard.m */; };
+		20FD4B6312E479950042E281 /* cpZeoCrystal.png in Resources */ = {isa = PBXBuildFile; fileRef = 20FD4B6212E479950042E281 /* cpZeoCrystal.png */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		4841F4720FFAFE48001CC354 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4841F4710FFAFE48001CC354 /* QuartzCore.framework */; };
+		48A858CF0FFAFA2E0060F0B8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A858CE0FFAFA2E0060F0B8 /* OpenGLES.framework */; };
+		48A858DD0FFAFB550060F0B8 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A858DB0FFAFB550060F0B8 /* EAGLView.m */; };
+		48A858E00FFAFC3B0060F0B8 /* BBInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A858DF0FFAFC3B0060F0B8 /* BBInputViewController.m */; };
+		48A858E30FFAFC450060F0B8 /* BBSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A858E20FFAFC450060F0B8 /* BBSceneController.m */; };
+		48A858E60FFAFC4D0060F0B8 /* BBSceneObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A858E50FFAFC4D0060F0B8 /* BBSceneObject.m */; };
+		48C2AB8A10032DE100F0CFA0 /* BBMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C2AB8910032DE100F0CFA0 /* BBMesh.m */; };
+		5DA9C4E212D825270027B368 /* Level4Atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9C4E012D825270027B368 /* Level4Atlas.plist */; };
+		5DA9C4E312D825270027B368 /* Level5Atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9C4E112D825270027B368 /* Level5Atlas.plist */; };
+		5DA9C4EB12D825880027B368 /* Level4Atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9C4EA12D825880027B368 /* Level4Atlas.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BBOpenGLGameTemplateAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBOpenGLGameTemplateAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BBOpenGLGameTemplateAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBOpenGLGameTemplateAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MarPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		200608BD127F1D8300636C1F /* MainMenuAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenuAtlas.png; sourceTree = "<group>"; };
+		201FFA84123622360088F434 /* BBConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBConfiguration.h; sourceTree = "<group>"; };
+		202599D9127C3A78000306C5 /* BBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBButton.h; sourceTree = "<group>"; };
+		202599DA127C3A78000306C5 /* BBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBButton.m; sourceTree = "<group>"; };
+		20304E5612A0E08400151BA5 /* BBUfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBUfo.h; sourceTree = "<group>"; };
+		20304E5712A0E08400151BA5 /* BBUfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBUfo.m; sourceTree = "<group>"; };
+		20304E6112A0E4E200151BA5 /* anUfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anUfo.png; sourceTree = "<group>"; };
+		20304E9812A0EE5F00151BA5 /* BBWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBWheel.h; sourceTree = "<group>"; };
+		20304E9912A0EE5F00151BA5 /* BBWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBWheel.m; sourceTree = "<group>"; };
+		20304ED912A0F35000151BA5 /* BBChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBChain.h; sourceTree = "<group>"; };
+		20304EDA12A0F35000151BA5 /* BBChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBChain.m; sourceTree = "<group>"; };
+		20304EE412A0F61500151BA5 /* cpWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cpWheel.png; sourceTree = "<group>"; };
+		20304EE612A0F61F00151BA5 /* cpChain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cpChain.png; sourceTree = "<group>"; };
+		20490138126C6A0C000462F9 /* BBWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBWall.h; sourceTree = "<group>"; };
+		20490139126C6A0C000462F9 /* BBWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBWall.m; sourceTree = "<group>"; };
+		204E1502128C2E1A0026BB00 /* Level1Atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level1Atlas.plist; sourceTree = "<group>"; };
+		204E150B128C300E0026BB00 /* MarbleAtlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MarbleAtlas.plist; sourceTree = "<group>"; };
+		2060E42612B666ED00D598F1 /* BBWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBWormhole.h; sourceTree = "<group>"; };
+		2060E42712B666ED00D598F1 /* BBWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBWormhole.m; sourceTree = "<group>"; };
+		206615E512A3F53F00673130 /* anUfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = anUfo.plist; sourceTree = "<group>"; };
+		2066160212A3FA2500673130 /* anBlackHole.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = anBlackHole.plist; path = Classes/anBlackHole.plist; sourceTree = "<group>"; };
+		2066162312A3FBE800673130 /* BBBlackhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBlackhole.h; sourceTree = "<group>"; };
+		2066162412A3FBE800673130 /* BBBlackhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBlackhole.m; sourceTree = "<group>"; };
+		206616D812A4075F00673130 /* BBStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBStar.h; sourceTree = "<group>"; };
+		206616D912A4075F00673130 /* BBStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBStar.m; sourceTree = "<group>"; };
+		206616DB12A40A5400673130 /* BBParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBParticle.h; sourceTree = "<group>"; };
+		206616DC12A40A5400673130 /* BBParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBParticle.m; sourceTree = "<group>"; };
+		2066170212A40CFB00673130 /* BBParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBParticleSystem.h; sourceTree = "<group>"; };
+		2066170312A40CFB00673130 /* BBParticleSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBParticleSystem.m; sourceTree = "<group>"; };
+		2066172512A4181B00673130 /* anStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anStar.png; sourceTree = "<group>"; };
+		2066172712A4182C00673130 /* anStar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = anStar.plist; sourceTree = "<group>"; };
+		2067170512E038A800A2697E /* JarMenuAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JarMenuAtlas.png; sourceTree = "<group>"; };
+		2067170812E038E100A2697E /* JarMenuAtlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JarMenuAtlas.plist; sourceTree = "<group>"; };
+		2067178912E053F000A2697E /* BBMarbleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMarbleButton.h; sourceTree = "<group>"; };
+		2067178A12E053F000A2697E /* BBMarbleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMarbleButton.m; sourceTree = "<group>"; };
+		206717CF12E058A200A2697E /* BBMarbleText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMarbleText.h; sourceTree = "<group>"; };
+		206717D012E058A200A2697E /* BBMarbleText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMarbleText.m; sourceTree = "<group>"; };
+		20735F5212BE238A00BD14ED /* BBArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBArrow.h; sourceTree = "<group>"; };
+		20735F5312BE238A00BD14ED /* BBArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBArrow.m; sourceTree = "<group>"; };
+		207F18A612DD8B4400E4A111 /* BBTexturedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTexturedImage.h; sourceTree = "<group>"; };
+		207F18A712DD8B4400E4A111 /* BBTexturedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTexturedImage.m; sourceTree = "<group>"; };
+		207F192E12DDC19A00E4A111 /* ScoreboardAtlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ScoreboardAtlas.plist; sourceTree = "<group>"; };
+		207F1B4412DDE02D00E4A111 /* BBPongoScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPongoScore.h; sourceTree = "<group>"; };
+		207F1B4512DDE02D00E4A111 /* BBPongoScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPongoScore.m; sourceTree = "<group>"; };
+		2083986512E821F800296A80 /* BBEditorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBEditorObject.h; sourceTree = "<group>"; };
+		2083986612E821F800296A80 /* BBEditorObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBEditorObject.m; sourceTree = "<group>"; };
+		2084699B12A0D05B00072FA8 /* Level2Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Level2Atlas.png; sourceTree = "<group>"; };
+		2084699E12A0D09E00072FA8 /* Level2Atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level2Atlas.plist; sourceTree = "<group>"; };
+		208469A712A0D24800072FA8 /* Level3Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Level3Atlas.png; sourceTree = "<group>"; };
+		208469A912A0D2FB00072FA8 /* Level3Atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level3Atlas.plist; sourceTree = "<group>"; };
+		208469C012A0D5C000072FA8 /* BBAnimatedQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBAnimatedQuad.h; sourceTree = "<group>"; };
+		208469C112A0D5C000072FA8 /* BBAnimatedQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBAnimatedQuad.m; sourceTree = "<group>"; };
+		2088A52A1303EB970094F349 /* BBLogBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBLogBoard.h; sourceTree = "<group>"; };
+		2088A52B1303EB970094F349 /* BBLogBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBLogBoard.m; sourceTree = "<group>"; };
+		208CD6571251022500F4D8FE /* BBStaticMarble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBStaticMarble.h; sourceTree = "<group>"; };
+		208CD6581251022500F4D8FE /* BBStaticMarble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBStaticMarble.m; sourceTree = "<group>"; };
+		208CD69B125106EB00F4D8FE /* BBCollider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCollider.h; sourceTree = "<group>"; };
+		208CD69C125106EB00F4D8FE /* BBCollider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCollider.m; sourceTree = "<group>"; };
+		208CD7021251106C00F4D8FE /* BBCollisionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCollisionController.h; sourceTree = "<group>"; };
+		208CD7031251106C00F4D8FE /* BBCollisionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCollisionController.m; sourceTree = "<group>"; };
+		208CF0E412DC3F7800A91B1B /* BBScoreBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBScoreBoard.h; sourceTree = "<group>"; };
+		208CF0E512DC3F7800A91B1B /* BBScoreBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBScoreBoard.m; sourceTree = "<group>"; };
+		20957A391303C15E00F49917 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		20957A5B1303C74300F49917 /* addObjectBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addObjectBoard.h; sourceTree = "<group>"; };
+		20957A5C1303C74300F49917 /* addObjectBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addObjectBoard.m; sourceTree = "<group>"; };
+		20957A611303CD5100F49917 /* WallAtlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WallAtlas.plist; sourceTree = "<group>"; };
+		209896EC12704981006737D5 /* BBScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBScore.h; sourceTree = "<group>"; };
+		209896ED12704981006737D5 /* BBScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBScore.m; sourceTree = "<group>"; };
+		209896EF12704A38006737D5 /* BBScoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBScoreController.h; sourceTree = "<group>"; };
+		209896F012704A38006737D5 /* BBScoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBScoreController.m; sourceTree = "<group>"; };
+		20A0295112757F3000B64694 /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		20A0295212757F3000B64694 /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		20A029621275846C00B64694 /* BBText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBText.h; sourceTree = "<group>"; };
+		20A029631275846C00B64694 /* BBText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBText.m; sourceTree = "<group>"; };
+		20A29A8112EB588900F251E3 /* anBlackHole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anBlackHole.png; sourceTree = "<group>"; };
+		20A29A8312EB58A200F251E3 /* Object Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Object Data.plist"; sourceTree = "<group>"; };
+		20AA2E041283FFDA001A4918 /* BBRope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBRope.h; sourceTree = "<group>"; };
+		20AA2E051283FFDA001A4918 /* BBRope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBRope.m; sourceTree = "<group>"; };
+		20AA2EA512841231001A4918 /* BBMarbleBooster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMarbleBooster.h; sourceTree = "<group>"; };
+		20AA2EA612841231001A4918 /* BBMarbleBooster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMarbleBooster.m; sourceTree = "<group>"; };
+		20B06BB2128EDFCC00CDAEF8 /* NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
+		20B06BB3128EDFCC00CDAEF8 /* NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString.m; sourceTree = "<group>"; };
+		20C3F95912F5923900FBDA1D /* BBTextBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTextBox.h; sourceTree = "<group>"; };
+		20C3F95A12F5923900FBDA1D /* BBTextBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTextBox.m; sourceTree = "<group>"; };
+		20C3FACA12F5C7E800FBDA1D /* ButtonHelpAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonHelpAtlas.png; sourceTree = "<group>"; };
+		20C3FACC12F5C80700FBDA1D /* ButtonHelpAtlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ButtonHelpAtlas.plist; sourceTree = "<group>"; };
+		20C85A9912EC1A36004935F3 /* Tutorial1Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tutorial1Atlas.png; sourceTree = "<group>"; };
+		20C85A9B12EC1A3D004935F3 /* Tutorial2Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tutorial2Atlas.png; sourceTree = "<group>"; };
+		20C85A9C12EC1A3D004935F3 /* Tutorial3Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tutorial3Atlas.png; sourceTree = "<group>"; };
+		20C85AA012EC1A6B004935F3 /* Tutorial1Atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tutorial1Atlas.plist; sourceTree = "<group>"; };
+		20C85B3112EC2D2C004935F3 /* Tutorial2Atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tutorial2Atlas.plist; sourceTree = "<group>"; };
+		20C85B3312EC2D33004935F3 /* Tutorial3Atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tutorial3Atlas.plist; sourceTree = "<group>"; };
+		20C85B4312EC323F004935F3 /* SelectVersusAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectVersusAtlas.png; sourceTree = "<group>"; };
+		20C85B4712EC3275004935F3 /* SelectVersusAtlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SelectVersusAtlas.plist; sourceTree = "<group>"; };
+		20D083E31296C5A9004C6476 /* BBPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPlayer.h; sourceTree = "<group>"; };
+		20D083E41296C5A9004C6476 /* BBPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPlayer.m; sourceTree = "<group>"; };
+		20D5E324127A0030000E61AA /* BBTexturedQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTexturedQuad.h; sourceTree = "<group>"; };
+		20D5E325127A0030000E61AA /* BBTexturedQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTexturedQuad.m; sourceTree = "<group>"; };
+		20D5E327127A00B9000E61AA /* BBMaterialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMaterialController.h; sourceTree = "<group>"; };
+		20D5E328127A00B9000E61AA /* BBMaterialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMaterialController.m; sourceTree = "<group>"; };
+		20D82CCE1297A10F0076FE09 /* Level1Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Level1Atlas.png; sourceTree = "<group>"; };
+		20D8B0EC12E9DBBF00DE8374 /* BBEditorBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBEditorBoard.h; sourceTree = "<group>"; };
+		20D8B0ED12E9DBBF00DE8374 /* BBEditorBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBEditorBoard.m; sourceTree = "<group>"; };
+		20D8B12412E9DE8B00DE8374 /* Level5Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Level5Atlas.png; sourceTree = "<group>"; };
+		20DCC321128863A40037FD95 /* LevelSelectAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LevelSelectAtlas.png; sourceTree = "<group>"; };
+		20DCC330128863E60037FD95 /* LevelSelectAtlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LevelSelectAtlas.plist; sourceTree = "<group>"; };
+		20DCD221127EBC7000B3A1CE /* BBTexturedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTexturedButton.h; sourceTree = "<group>"; };
+		20DCD222127EBC7000B3A1CE /* BBTexturedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTexturedButton.m; sourceTree = "<group>"; };
+		20EE19D91232484D006B2730 /* BBPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPoint.h; sourceTree = "<group>"; };
+		20EE1A2B12324F2F006B2730 /* BBMobileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMobileObject.h; sourceTree = "<group>"; };
+		20EE1A2C12324F2F006B2730 /* BBMobileObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMobileObject.m; sourceTree = "<group>"; };
+		20EE1A2E12325061006B2730 /* BBMarble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMarble.h; sourceTree = "<group>"; };
+		20EE1A2F12325061006B2730 /* BBMarble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMarble.m; sourceTree = "<group>"; };
+		20EF2ABB127F064700B83C64 /* BBBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBackground.h; sourceTree = "<group>"; };
+		20EF2ABC127F064700B83C64 /* BBBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBackground.m; sourceTree = "<group>"; };
+		20EF2AC0127F084C00B83C64 /* MainMenuAtlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainMenuAtlas.plist; sourceTree = "<group>"; };
+		20F193F312E16C86003C4833 /* JarMenu2Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JarMenu2Atlas.png; sourceTree = "<group>"; };
+		20F193F612E16CAD003C4833 /* JarMenu2Atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JarMenu2Atlas.plist; sourceTree = "<group>"; };
+		20F8BDBA1275DDC500106941 /* BBLevelReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBLevelReader.h; sourceTree = "<group>"; };
+		20F8BDBB1275DDC500106941 /* BBLevelReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBLevelReader.m; sourceTree = "<group>"; };
+		20F9FCCE12E2EC350066F427 /* VSScoreBoardAtlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VSScoreBoardAtlas.plist; sourceTree = "<group>"; };
+		20F9FCCF12E2EC350066F427 /* VSScoreBoardAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VSScoreBoardAtlas.png; sourceTree = "<group>"; };
+		20F9FCD212E2EC420066F427 /* BBVSScoreBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBVSScoreBoard.h; sourceTree = "<group>"; };
+		20F9FCD312E2EC420066F427 /* BBVSScoreBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBVSScoreBoard.m; sourceTree = "<group>"; };
+		20F9FD6E12E2F6260066F427 /* ScoreboardAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScoreboardAtlas.png; sourceTree = "<group>"; };
+		20F9FDDF12E304BB0066F427 /* ResumeAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ResumeAtlas.png; sourceTree = "<group>"; };
+		20F9FDE312E304D80066F427 /* ResumeAtlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ResumeAtlas.plist; sourceTree = "<group>"; };
+		20F9FDE612E305B60066F427 /* ButtonAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonAtlas.png; sourceTree = "<group>"; };
+		20F9FDE812E305D90066F427 /* ButtonAtlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ButtonAtlas.plist; sourceTree = "<group>"; };
+		20FD495712E43D860042E281 /* BBSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSelectButton.h; sourceTree = "<group>"; };
+		20FD495812E43D860042E281 /* BBSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSelectButton.m; sourceTree = "<group>"; };
+		20FD4A2D12E448C40042E281 /* MarbleAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarbleAtlas.png; sourceTree = "<group>"; };
+		20FD4AD512E459B50042E281 /* BBResumeBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBResumeBoard.h; sourceTree = "<group>"; };
+		20FD4AD612E459B50042E281 /* BBResumeBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBResumeBoard.m; sourceTree = "<group>"; };
+		20FD4B6212E479950042E281 /* cpZeoCrystal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cpZeoCrystal.png; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* BBOpenGLGameTemplate_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBOpenGLGameTemplate_Prefix.pch; sourceTree = "<group>"; };
+		4841F4710FFAFE48001CC354 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		48A858CE0FFAFA2E0060F0B8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		48A858DB0FFAFB550060F0B8 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		48A858DC0FFAFB550060F0B8 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		48A858DE0FFAFC3B0060F0B8 /* BBInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBInputViewController.h; sourceTree = "<group>"; };
+		48A858DF0FFAFC3B0060F0B8 /* BBInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBInputViewController.m; sourceTree = "<group>"; };
+		48A858E10FFAFC450060F0B8 /* BBSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSceneController.h; sourceTree = "<group>"; };
+		48A858E20FFAFC450060F0B8 /* BBSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSceneController.m; sourceTree = "<group>"; };
+		48A858E40FFAFC4D0060F0B8 /* BBSceneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSceneObject.h; sourceTree = "<group>"; };
+		48A858E50FFAFC4D0060F0B8 /* BBSceneObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSceneObject.m; sourceTree = "<group>"; };
+		48C2AB8810032DE100F0CFA0 /* BBMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMesh.h; sourceTree = "<group>"; };
+		48C2AB8910032DE100F0CFA0 /* BBMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMesh.m; sourceTree = "<group>"; };
+		5DA9C4E012D825270027B368 /* Level4Atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level4Atlas.plist; sourceTree = "<group>"; };
+		5DA9C4E112D825270027B368 /* Level5Atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level5Atlas.plist; sourceTree = "<group>"; };
+		5DA9C4EA12D825880027B368 /* Level4Atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Level4Atlas.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BBOpenGLGameTemplate-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BBOpenGLGameTemplate-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				48A858CF0FFAFA2E0060F0B8 /* OpenGLES.framework in Frameworks */,
+				4841F4720FFAFE48001CC354 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				20EE19D812324831006B2730 /* Config */,
+				2083984312E81F4100296A80 /* Main */,
+				20EE19CF123243E9006B2730 /* SceneObjects */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MarPong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2083984312E81F4100296A80 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				208469C012A0D5C000072FA8 /* BBAnimatedQuad.h */,
+				208469C112A0D5C000072FA8 /* BBAnimatedQuad.m */,
+				2083986512E821F800296A80 /* BBEditorObject.h */,
+				2083986612E821F800296A80 /* BBEditorObject.m */,
+				48A858DE0FFAFC3B0060F0B8 /* BBInputViewController.h */,
+				48A858DF0FFAFC3B0060F0B8 /* BBInputViewController.m */,
+				20F8BDBA1275DDC500106941 /* BBLevelReader.h */,
+				20F8BDBB1275DDC500106941 /* BBLevelReader.m */,
+				20D5E327127A00B9000E61AA /* BBMaterialController.h */,
+				20D5E328127A00B9000E61AA /* BBMaterialController.m */,
+				48C2AB8810032DE100F0CFA0 /* BBMesh.h */,
+				48C2AB8910032DE100F0CFA0 /* BBMesh.m */,
+				1D3623240D0F684500981E51 /* BBOpenGLGameTemplateAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BBOpenGLGameTemplateAppDelegate.m */,
+				206616DB12A40A5400673130 /* BBParticle.h */,
+				206616DC12A40A5400673130 /* BBParticle.m */,
+				2066170212A40CFB00673130 /* BBParticleSystem.h */,
+				2066170312A40CFB00673130 /* BBParticleSystem.m */,
+				20D083E31296C5A9004C6476 /* BBPlayer.h */,
+				20D083E41296C5A9004C6476 /* BBPlayer.m */,
+				48A858E10FFAFC450060F0B8 /* BBSceneController.h */,
+				48A858E20FFAFC450060F0B8 /* BBSceneController.m */,
+				20DCD221127EBC7000B3A1CE /* BBTexturedButton.h */,
+				20DCD222127EBC7000B3A1CE /* BBTexturedButton.m */,
+				207F18A612DD8B4400E4A111 /* BBTexturedImage.h */,
+				207F18A712DD8B4400E4A111 /* BBTexturedImage.m */,
+				20D5E324127A0030000E61AA /* BBTexturedQuad.h */,
+				20D5E325127A0030000E61AA /* BBTexturedQuad.m */,
+				48A858DC0FFAFB550060F0B8 /* EAGLView.h */,
+				48A858DB0FFAFB550060F0B8 /* EAGLView.m */,
+				20A0295112757F3000B64694 /* Texture2D.h */,
+				20A0295212757F3000B64694 /* Texture2D.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		20EE19CF123243E9006B2730 /* SceneObjects */ = {
+			isa = PBXGroup;
+			children = (
+				20957A5B1303C74300F49917 /* addObjectBoard.h */,
+				20957A5C1303C74300F49917 /* addObjectBoard.m */,
+				20735F5212BE238A00BD14ED /* BBArrow.h */,
+				20735F5312BE238A00BD14ED /* BBArrow.m */,
+				20EF2ABB127F064700B83C64 /* BBBackground.h */,
+				20EF2ABC127F064700B83C64 /* BBBackground.m */,
+				2066162312A3FBE800673130 /* BBBlackhole.h */,
+				2066162412A3FBE800673130 /* BBBlackhole.m */,
+				202599D9127C3A78000306C5 /* BBButton.h */,
+				202599DA127C3A78000306C5 /* BBButton.m */,
+				20304ED912A0F35000151BA5 /* BBChain.h */,
+				20304EDA12A0F35000151BA5 /* BBChain.m */,
+				208CD69B125106EB00F4D8FE /* BBCollider.h */,
+				208CD69C125106EB00F4D8FE /* BBCollider.m */,
+				208CD7021251106C00F4D8FE /* BBCollisionController.h */,
+				208CD7031251106C00F4D8FE /* BBCollisionController.m */,
+				20D8B0EC12E9DBBF00DE8374 /* BBEditorBoard.h */,
+				20D8B0ED12E9DBBF00DE8374 /* BBEditorBoard.m */,
+				2088A52A1303EB970094F349 /* BBLogBoard.h */,
+				2088A52B1303EB970094F349 /* BBLogBoard.m */,
+				20EE1A2E12325061006B2730 /* BBMarble.h */,
+				20EE1A2F12325061006B2730 /* BBMarble.m */,
+				20AA2EA512841231001A4918 /* BBMarbleBooster.h */,
+				20AA2EA612841231001A4918 /* BBMarbleBooster.m */,
+				2067178912E053F000A2697E /* BBMarbleButton.h */,
+				2067178A12E053F000A2697E /* BBMarbleButton.m */,
+				206717CF12E058A200A2697E /* BBMarbleText.h */,
+				206717D012E058A200A2697E /* BBMarbleText.m */,
+				20EE1A2B12324F2F006B2730 /* BBMobileObject.h */,
+				20EE1A2C12324F2F006B2730 /* BBMobileObject.m */,
+				207F1B4412DDE02D00E4A111 /* BBPongoScore.h */,
+				207F1B4512DDE02D00E4A111 /* BBPongoScore.m */,
+				20FD4AD512E459B50042E281 /* BBResumeBoard.h */,
+				20FD4AD612E459B50042E281 /* BBResumeBoard.m */,
+				20AA2E041283FFDA001A4918 /* BBRope.h */,
+				20AA2E051283FFDA001A4918 /* BBRope.m */,
+				48A858E40FFAFC4D0060F0B8 /* BBSceneObject.h */,
+				48A858E50FFAFC4D0060F0B8 /* BBSceneObject.m */,
+				209896EC12704981006737D5 /* BBScore.h */,
+				209896ED12704981006737D5 /* BBScore.m */,
+				208CF0E412DC3F7800A91B1B /* BBScoreBoard.h */,
+				208CF0E512DC3F7800A91B1B /* BBScoreBoard.m */,
+				209896EF12704A38006737D5 /* BBScoreController.h */,
+				209896F012704A38006737D5 /* BBScoreController.m */,
+				20FD495712E43D860042E281 /* BBSelectButton.h */,
+				20FD495812E43D860042E281 /* BBSelectButton.m */,
+				206616D812A4075F00673130 /* BBStar.h */,
+				206616D912A4075F00673130 /* BBStar.m */,
+				208CD6571251022500F4D8FE /* BBStaticMarble.h */,
+				208CD6581251022500F4D8FE /* BBStaticMarble.m */,
+				20A029621275846C00B64694 /* BBText.h */,
+				20A029631275846C00B64694 /* BBText.m */,
+				20C3F95912F5923900FBDA1D /* BBTextBox.h */,
+				20C3F95A12F5923900FBDA1D /* BBTextBox.m */,
+				20304E5612A0E08400151BA5 /* BBUfo.h */,
+				20304E5712A0E08400151BA5 /* BBUfo.m */,
+				20F9FCD212E2EC420066F427 /* BBVSScoreBoard.h */,
+				20F9FCD312E2EC420066F427 /* BBVSScoreBoard.m */,
+				20490138126C6A0C000462F9 /* BBWall.h */,
+				20490139126C6A0C000462F9 /* BBWall.m */,
+				20304E9812A0EE5F00151BA5 /* BBWheel.h */,
+				20304E9912A0EE5F00151BA5 /* BBWheel.m */,
+				2060E42612B666ED00D598F1 /* BBWormhole.h */,
+				2060E42712B666ED00D598F1 /* BBWormhole.m */,
+			);
+			name = SceneObjects;
+			sourceTree = "<group>";
+		};
+		20EE19D812324831006B2730 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				20B06BB2128EDFCC00CDAEF8 /* NSString.h */,
+				20B06BB3128EDFCC00CDAEF8 /* NSString.m */,
+				20EE19D91232484D006B2730 /* BBPoint.h */,
+				201FFA84123622360088F434 /* BBConfiguration.h */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* BBOpenGLGameTemplate_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2066160212A3FA2500673130 /* anBlackHole.plist */,
+				20A29A8112EB588900F251E3 /* anBlackHole.png */,
+				2066172712A4182C00673130 /* anStar.plist */,
+				2066172512A4181B00673130 /* anStar.png */,
+				206615E512A3F53F00673130 /* anUfo.plist */,
+				20304E6112A0E4E200151BA5 /* anUfo.png */,
+				8D1107310486CEB800E47090 /* BBOpenGLGameTemplate-Info.plist */,
+				20F9FDE812E305D90066F427 /* ButtonAtlas.plist */,
+				20F9FDE612E305B60066F427 /* ButtonAtlas.png */,
+				20C3FACC12F5C80700FBDA1D /* ButtonHelpAtlas.plist */,
+				20C3FACA12F5C7E800FBDA1D /* ButtonHelpAtlas.png */,
+				20304EE612A0F61F00151BA5 /* cpChain.png */,
+				20304EE412A0F61500151BA5 /* cpWheel.png */,
+				20FD4B6212E479950042E281 /* cpZeoCrystal.png */,
+				20957A391303C15E00F49917 /* icon.png */,
+				20F193F612E16CAD003C4833 /* JarMenu2Atlas.plist */,
+				20F193F312E16C86003C4833 /* JarMenu2Atlas.png */,
+				2067170812E038E100A2697E /* JarMenuAtlas.plist */,
+				2067170512E038A800A2697E /* JarMenuAtlas.png */,
+				204E1502128C2E1A0026BB00 /* Level1Atlas.plist */,
+				20D82CCE1297A10F0076FE09 /* Level1Atlas.png */,
+				2084699E12A0D09E00072FA8 /* Level2Atlas.plist */,
+				2084699B12A0D05B00072FA8 /* Level2Atlas.png */,
+				208469A912A0D2FB00072FA8 /* Level3Atlas.plist */,
+				208469A712A0D24800072FA8 /* Level3Atlas.png */,
+				5DA9C4E012D825270027B368 /* Level4Atlas.plist */,
+				5DA9C4EA12D825880027B368 /* Level4Atlas.png */,
+				5DA9C4E112D825270027B368 /* Level5Atlas.plist */,
+				20D8B12412E9DE8B00DE8374 /* Level5Atlas.png */,
+				20DCC330128863E60037FD95 /* LevelSelectAtlas.plist */,
+				20DCC321128863A40037FD95 /* LevelSelectAtlas.png */,
+				20EF2AC0127F084C00B83C64 /* MainMenuAtlas.plist */,
+				200608BD127F1D8300636C1F /* MainMenuAtlas.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				204E150B128C300E0026BB00 /* MarbleAtlas.plist */,
+				20FD4A2D12E448C40042E281 /* MarbleAtlas.png */,
+				20A29A8312EB58A200F251E3 /* Object Data.plist */,
+				20F9FDE312E304D80066F427 /* ResumeAtlas.plist */,
+				20F9FDDF12E304BB0066F427 /* ResumeAtlas.png */,
+				207F192E12DDC19A00E4A111 /* ScoreboardAtlas.plist */,
+				20F9FD6E12E2F6260066F427 /* ScoreboardAtlas.png */,
+				20C85B4712EC3275004935F3 /* SelectVersusAtlas.plist */,
+				20C85B4312EC323F004935F3 /* SelectVersusAtlas.png */,
+				20C85AA012EC1A6B004935F3 /* Tutorial1Atlas.plist */,
+				20C85A9912EC1A36004935F3 /* Tutorial1Atlas.png */,
+				20C85B3112EC2D2C004935F3 /* Tutorial2Atlas.plist */,
+				20C85A9B12EC1A3D004935F3 /* Tutorial2Atlas.png */,
+				20C85B3312EC2D33004935F3 /* Tutorial3Atlas.plist */,
+				20C85A9C12EC1A3D004935F3 /* Tutorial3Atlas.png */,
+				20F9FCCE12E2EC350066F427 /* VSScoreBoardAtlas.plist */,
+				20F9FCCF12E2EC350066F427 /* VSScoreBoardAtlas.png */,
+				20957A611303CD5100F49917 /* WallAtlas.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48A858CE0FFAFA2E0060F0B8 /* OpenGLES.framework */,
+				4841F4710FFAFE48001CC354 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BBOpenGLGameTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BBOpenGLGameTemplate" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBOpenGLGameTemplate;
+			productName = BBOpenGLGameTemplate;
+			productReference = 1D6058910D05DD3D006BFB54 /* MarPong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MarPong" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BBOpenGLGameTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				20EF2AC1127F084C00B83C64 /* MainMenuAtlas.plist in Resources */,
+				200608BE127F1D8300636C1F /* MainMenuAtlas.png in Resources */,
+				20DCC322128863A40037FD95 /* LevelSelectAtlas.png in Resources */,
+				20DCC331128863E60037FD95 /* LevelSelectAtlas.plist in Resources */,
+				204E1503128C2E1A0026BB00 /* Level1Atlas.plist in Resources */,
+				204E150C128C300E0026BB00 /* MarbleAtlas.plist in Resources */,
+				20D82CCF1297A10F0076FE09 /* Level1Atlas.png in Resources */,
+				2084699C12A0D05B00072FA8 /* Level2Atlas.png in Resources */,
+				2084699F12A0D09E00072FA8 /* Level2Atlas.plist in Resources */,
+				208469A812A0D24800072FA8 /* Level3Atlas.png in Resources */,
+				208469AA12A0D2FB00072FA8 /* Level3Atlas.plist in Resources */,
+				20304E6212A0E4E200151BA5 /* anUfo.png in Resources */,
+				20304EE512A0F61500151BA5 /* cpWheel.png in Resources */,
+				20304EE712A0F61F00151BA5 /* cpChain.png in Resources */,
+				206615E612A3F53F00673130 /* anUfo.plist in Resources */,
+				2066160312A3FA2500673130 /* anBlackHole.plist in Resources */,
+				2066172612A4181B00673130 /* anStar.png in Resources */,
+				2066172812A4182C00673130 /* anStar.plist in Resources */,
+				5DA9C4E212D825270027B368 /* Level4Atlas.plist in Resources */,
+				5DA9C4E312D825270027B368 /* Level5Atlas.plist in Resources */,
+				5DA9C4EB12D825880027B368 /* Level4Atlas.png in Resources */,
+				207F192F12DDC19A00E4A111 /* ScoreboardAtlas.plist in Resources */,
+				2067170612E038A800A2697E /* JarMenuAtlas.png in Resources */,
+				2067170912E038E100A2697E /* JarMenuAtlas.plist in Resources */,
+				20F193F412E16C86003C4833 /* JarMenu2Atlas.png in Resources */,
+				20F193F712E16CAD003C4833 /* JarMenu2Atlas.plist in Resources */,
+				20F9FCD012E2EC350066F427 /* VSScoreBoardAtlas.plist in Resources */,
+				20F9FCD112E2EC350066F427 /* VSScoreBoardAtlas.png in Resources */,
+				20F9FD6F12E2F6260066F427 /* ScoreboardAtlas.png in Resources */,
+				20F9FDE012E304BB0066F427 /* ResumeAtlas.png in Resources */,
+				20F9FDE412E304D80066F427 /* ResumeAtlas.plist in Resources */,
+				20F9FDE712E305B60066F427 /* ButtonAtlas.png in Resources */,
+				20F9FDE912E305D90066F427 /* ButtonAtlas.plist in Resources */,
+				20FD4A2E12E448C40042E281 /* MarbleAtlas.png in Resources */,
+				20FD4B6312E479950042E281 /* cpZeoCrystal.png in Resources */,
+				20D8B12512E9DE8B00DE8374 /* Level5Atlas.png in Resources */,
+				20A29A8212EB588900F251E3 /* anBlackHole.png in Resources */,
+				20A29A8412EB58A200F251E3 /* Object Data.plist in Resources */,
+				20C85A9A12EC1A36004935F3 /* Tutorial1Atlas.png in Resources */,
+				20C85A9D12EC1A3D004935F3 /* Tutorial2Atlas.png in Resources */,
+				20C85A9E12EC1A3D004935F3 /* Tutorial3Atlas.png in Resources */,
+				20C85AA112EC1A6B004935F3 /* Tutorial1Atlas.plist in Resources */,
+				20C85B3212EC2D2C004935F3 /* Tutorial2Atlas.plist in Resources */,
+				20C85B3412EC2D33004935F3 /* Tutorial3Atlas.plist in Resources */,
+				20C85B4412EC323F004935F3 /* SelectVersusAtlas.png in Resources */,
+				20C85B4812EC3275004935F3 /* SelectVersusAtlas.plist in Resources */,
+				20C3FACB12F5C7E800FBDA1D /* ButtonHelpAtlas.png in Resources */,
+				20C3FACD12F5C80700FBDA1D /* ButtonHelpAtlas.plist in Resources */,
+				20957A3A1303C15E00F49917 /* icon.png in Resources */,
+				20957A621303CD5100F49917 /* WallAtlas.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BBOpenGLGameTemplateAppDelegate.m in Sources */,
+				48A858DD0FFAFB550060F0B8 /* EAGLView.m in Sources */,
+				48A858E00FFAFC3B0060F0B8 /* BBInputViewController.m in Sources */,
+				48A858E30FFAFC450060F0B8 /* BBSceneController.m in Sources */,
+				48A858E60FFAFC4D0060F0B8 /* BBSceneObject.m in Sources */,
+				48C2AB8A10032DE100F0CFA0 /* BBMesh.m in Sources */,
+				20EE1A2D12324F2F006B2730 /* BBMobileObject.m in Sources */,
+				20EE1A3012325061006B2730 /* BBMarble.m in Sources */,
+				208CD6591251022500F4D8FE /* BBStaticMarble.m in Sources */,
+				208CD69D125106EB00F4D8FE /* BBCollider.m in Sources */,
+				208CD7041251106C00F4D8FE /* BBCollisionController.m in Sources */,
+				2049013A126C6A0C000462F9 /* BBWall.m in Sources */,
+				209896EE12704981006737D5 /* BBScore.m in Sources */,
+				209896F112704A38006737D5 /* BBScoreController.m in Sources */,
+				20A0295312757F3000B64694 /* Texture2D.m in Sources */,
+				20A029641275846C00B64694 /* BBText.m in Sources */,
+				20F8BDBC1275DDC500106941 /* BBLevelReader.m in Sources */,
+				20D5E326127A0030000E61AA /* BBTexturedQuad.m in Sources */,
+				20D5E329127A00B9000E61AA /* BBMaterialController.m in Sources */,
+				202599DB127C3A78000306C5 /* BBButton.m in Sources */,
+				20DCD223127EBC7000B3A1CE /* BBTexturedButton.m in Sources */,
+				20EF2ABD127F064700B83C64 /* BBBackground.m in Sources */,
+				20AA2E061283FFDA001A4918 /* BBRope.m in Sources */,
+				20AA2EA712841231001A4918 /* BBMarbleBooster.m in Sources */,
+				20B06BB4128EDFCC00CDAEF8 /* NSString.m in Sources */,
+				20D083E51296C5A9004C6476 /* BBPlayer.m in Sources */,
+				208469C212A0D5C000072FA8 /* BBAnimatedQuad.m in Sources */,
+				20304E5812A0E08400151BA5 /* BBUfo.m in Sources */,
+				20304E9A12A0EE5F00151BA5 /* BBWheel.m in Sources */,
+				20304EDB12A0F35000151BA5 /* BBChain.m in Sources */,
+				2066162512A3FBE800673130 /* BBBlackhole.m in Sources */,
+				206616DA12A4075F00673130 /* BBStar.m in Sources */,
+				206616DD12A40A5400673130 /* BBParticle.m in Sources */,
+				2066170412A40CFB00673130 /* BBParticleSystem.m in Sources */,
+				2060E42812B666ED00D598F1 /* BBWormhole.m in Sources */,
+				20735F5412BE238A00BD14ED /* BBArrow.m in Sources */,
+				208CF0E612DC3F7800A91B1B /* BBScoreBoard.m in Sources */,
+				207F18A812DD8B4400E4A111 /* BBTexturedImage.m in Sources */,
+				207F1B4612DDE02D00E4A111 /* BBPongoScore.m in Sources */,
+				2067178B12E053F000A2697E /* BBMarbleButton.m in Sources */,
+				206717D112E058A200A2697E /* BBMarbleText.m in Sources */,
+				20F9FCD412E2EC420066F427 /* BBVSScoreBoard.m in Sources */,
+				20FD495912E43D860042E281 /* BBSelectButton.m in Sources */,
+				20FD4AD712E459B50042E281 /* BBResumeBoard.m in Sources */,
+				2083986712E821F800296A80 /* BBEditorObject.m in Sources */,
+				20D8B0EE12E9DBBF00DE8374 /* BBEditorBoard.m in Sources */,
+				20C3F95B12F5923900FBDA1D /* BBTextBox.m in Sources */,
+				20957A5D1303C74300F49917 /* addObjectBoard.m in Sources */,
+				2088A52C1303EB970094F349 /* BBLogBoard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BBOpenGLGameTemplate_Prefix.pch;
+				INFOPLIST_FILE = "BBOpenGLGameTemplate-Info.plist";
+				PRODUCT_NAME = MarPong;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BBOpenGLGameTemplate_Prefix.pch;
+				INFOPLIST_FILE = "BBOpenGLGameTemplate-Info.plist";
+				PRODUCT_NAME = BBOpenGLGameTemplate;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = MarPong;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BBOpenGLGameTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MarPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

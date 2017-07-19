@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>ufo 1</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ufo 2</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>150</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ufo 3</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>300</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ufo 4</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>450</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ufo 5</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>600</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ufo 6</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>750</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ufo 7</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>900</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ufo 8</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>120</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ufo 9</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>150</integer>
+		<key>yLocation</key>
+		<integer>120</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ufo 10</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>300</integer>
+		<key>yLocation</key>
+		<integer>120</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ufo 11</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>450</integer>
+		<key>yLocation</key>
+		<integer>120</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ufo 12</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>110</integer>
+		<key>xLocation</key>
+		<integer>600</integer>
+		<key>yLocation</key>
+		<integer>120</integer>
+	</dict>
+</array>
+</plist>

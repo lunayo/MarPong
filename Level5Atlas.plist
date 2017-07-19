@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>level 5 screen</string>
+		<key>height</key>
+		<integer>1280</integer>
+		<key>width</key>
+		<integer>1920</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

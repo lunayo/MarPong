@@ -1,0 +1,2021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Main Menu</key>
+	<dict>
+		<key>01 Main Menu Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>MainMenuAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Main Menu Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>background type</key>
+			<string>static</string>
+			<key>name</key>
+			<string>main screen</string>
+			<key>xScale</key>
+			<integer>480</integer>
+			<key>yScale</key>
+			<integer>320</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>0</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>03 VS Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>vs</string>
+			<key>xScale</key>
+			<integer>97</integer>
+			<key>yScale</key>
+			<integer>57</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-110</integer>
+			<key>yTranslation</key>
+			<integer>-30</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>04 Play Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>play</string>
+			<key>xScale</key>
+			<integer>97</integer>
+			<key>yScale</key>
+			<integer>57</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>5</integer>
+			<key>yTranslation</key>
+			<integer>-30</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>06 Jar Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>jar</string>
+			<key>xScale</key>
+			<integer>97</integer>
+			<key>yScale</key>
+			<integer>57</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>120</integer>
+			<key>yTranslation</key>
+			<integer>-30</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>07 Help Button Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>ButtonHelpAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>08 Help Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>help</string>
+			<key>xScale</key>
+			<integer>40</integer>
+			<key>yScale</key>
+			<integer>40</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>210</integer>
+			<key>yTranslation</key>
+			<integer>-135</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Level Selection</key>
+	<dict>
+		<key>01 Level Selection Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>LevelSelectAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Level Selection Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>level screen</string>
+			<key>background type</key>
+			<string>static</string>
+			<key>xScale</key>
+			<integer>480</integer>
+			<key>yScale</key>
+			<integer>320</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>0</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Level Selection Versus</key>
+	<dict>
+		<key>01 Level Selection Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>SelectVersusAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Button Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>ButtonAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>03 Level Selection Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>select screen</string>
+			<key>background type</key>
+			<string>static</string>
+			<key>xScale</key>
+			<integer>480</integer>
+			<key>yScale</key>
+			<integer>320</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>0</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>04 Back Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>back</string>
+			<key>xScale</key>
+			<integer>51</integer>
+			<key>yScale</key>
+			<integer>51</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-206</integer>
+			<key>yTranslation</key>
+			<integer>-125</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Jar Menu</key>
+	<dict>
+		<key>01 Jar Menu Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>JarMenuAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Jar Menu Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>jar screen</string>
+			<key>background type</key>
+			<string>static</string>
+			<key>xScale</key>
+			<integer>480</integer>
+			<key>yScale</key>
+			<integer>320</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>0</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>03 Zodiac button</key>
+		<dict>
+			<key>name</key>
+			<string>zodiac</string>
+			<key>type</key>
+			<string>button</string>
+			<key>xScale</key>
+			<integer>380</integer>
+			<key>yScale</key>
+			<integer>70</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>10</integer>
+			<key>yTranslation</key>
+			<integer>110</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>04 Rainbow Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>rainbow</string>
+			<key>xScale</key>
+			<integer>380</integer>
+			<key>yScale</key>
+			<integer>70</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>10</integer>
+			<key>yTranslation</key>
+			<integer>25</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 Nature Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>nature</string>
+			<key>xScale</key>
+			<integer>380</integer>
+			<key>yScale</key>
+			<integer>70</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>10</integer>
+			<key>yTranslation</key>
+			<integer>-60</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>06 Back Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>back</string>
+			<key>xScale</key>
+			<integer>51</integer>
+			<key>yScale</key>
+			<integer>51</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-190</integer>
+			<key>yTranslation</key>
+			<integer>-120</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Zodiac Menu</key>
+	<dict>
+		<key>01 Jar Menu Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>JarMenuAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Jar2 Menu Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>JarMenu2Atlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>03 Jar Menu Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>jar2 screen</string>
+			<key>background type</key>
+			<string>static</string>
+			<key>xScale</key>
+			<integer>480</integer>
+			<key>yScale</key>
+			<integer>320</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>0</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>04 Zodiac Menubar</key>
+		<dict>
+			<key>button type</key>
+			<string>static</string>
+			<key>name</key>
+			<string>zodiac</string>
+			<key>type</key>
+			<string>button</string>
+			<key>xScale</key>
+			<integer>200</integer>
+			<key>yScale</key>
+			<integer>35</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-90</integer>
+			<key>yTranslation</key>
+			<integer>120</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 Back Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>back</string>
+			<key>xScale</key>
+			<integer>51</integer>
+			<key>yScale</key>
+			<integer>51</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-190</integer>
+			<key>yTranslation</key>
+			<integer>-120</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Rainbow Menu</key>
+	<dict>
+		<key>01 Jar Menu Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>JarMenuAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Jar2 Menu Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>JarMenu2Atlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>03 Jar Menu Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>jar2 screen</string>
+			<key>background type</key>
+			<string>static</string>
+			<key>xScale</key>
+			<integer>480</integer>
+			<key>yScale</key>
+			<integer>320</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>0</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>04 Rainbow Menubar</key>
+		<dict>
+			<key>button type</key>
+			<string>static</string>
+			<key>name</key>
+			<string>rainbow</string>
+			<key>type</key>
+			<string>button</string>
+			<key>xScale</key>
+			<integer>200</integer>
+			<key>yScale</key>
+			<integer>35</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-90</integer>
+			<key>yTranslation</key>
+			<integer>120</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 Back Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>back</string>
+			<key>xScale</key>
+			<integer>51</integer>
+			<key>yScale</key>
+			<integer>51</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-190</integer>
+			<key>yTranslation</key>
+			<integer>-120</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Nature Menu</key>
+	<dict>
+		<key>01 Jar Menu Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>JarMenuAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Jar2 Menu Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>JarMenu2Atlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>03 Jar Menu Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>jar2 screen</string>
+			<key>background type</key>
+			<string>static</string>
+			<key>xScale</key>
+			<integer>480</integer>
+			<key>yScale</key>
+			<integer>320</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>0</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>04 Nature Menubar</key>
+		<dict>
+			<key>button type</key>
+			<string>static</string>
+			<key>name</key>
+			<string>nature</string>
+			<key>type</key>
+			<string>button</string>
+			<key>xScale</key>
+			<integer>200</integer>
+			<key>yScale</key>
+			<integer>35</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-90</integer>
+			<key>yTranslation</key>
+			<integer>120</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 Back Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>back</string>
+			<key>xScale</key>
+			<integer>51</integer>
+			<key>yScale</key>
+			<integer>51</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-190</integer>
+			<key>yTranslation</key>
+			<integer>-120</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Tutorial1 Menu</key>
+	<dict>
+		<key>01 Tutorial 1 Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>Tutorial1Atlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Tutorial 1 Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>tutorial 1 screen</string>
+			<key>background type</key>
+			<string>static</string>
+			<key>xScale</key>
+			<integer>480</integer>
+			<key>yScale</key>
+			<integer>320</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>0</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>03 1st Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>first</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>50</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>04 2nd Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>second</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>100</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 3rd Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>third</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>150</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>06 End Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>end</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>200</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Tutorial2 Menu</key>
+	<dict>
+		<key>01 Tutorial 2 Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>Tutorial2Atlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Tutorial 2 Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>tutorial 2 screen</string>
+			<key>background type</key>
+			<string>static</string>
+			<key>xScale</key>
+			<integer>480</integer>
+			<key>yScale</key>
+			<integer>320</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>0</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>03 1st Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>first</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>50</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>04 2nd Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>second</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>100</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 3rd Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>third</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>150</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>06 End Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>end</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>200</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Tutorial3 Menu</key>
+	<dict>
+		<key>01 Tutorial 3 Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>Tutorial3Atlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Tutorial 3 Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>tutorial 3 screen</string>
+			<key>background type</key>
+			<string>static</string>
+			<key>xScale</key>
+			<integer>480</integer>
+			<key>yScale</key>
+			<integer>320</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>0</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>03 1st Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>first</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>50</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>04 2nd Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>second</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>100</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 3rd Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>third</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>150</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>06 End Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>end</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>31</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>200</integer>
+			<key>yTranslation</key>
+			<integer>-145</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Level 1</key>
+	<dict>
+		<key>01 Level 1 Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>Level1Atlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Marble Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>MarbleAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>03 Button Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>ButtonAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>04 Level 1 Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>level 1 screen</string>
+			<key>background type</key>
+			<string>dynamic</string>
+			<key>xScale</key>
+			<integer>1920</integer>
+			<key>yScale</key>
+			<integer>1280</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>640</integer>
+			<key>yTranslation</key>
+			<integer>480</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 Hero Marble</key>
+		<dict>
+			<key>type</key>
+			<string>marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-120</integer>
+			<key>yTranslation</key>
+			<integer>-30</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>06 Static Marble 1</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>800</integer>
+			<key>yTranslation</key>
+			<integer>100</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>1</integer>
+		</dict>
+		<key>07 Static Marble 2</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>850</integer>
+			<key>yTranslation</key>
+			<integer>100</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>2</integer>
+		</dict>
+		<key>08 Static Marble 3</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>900</integer>
+			<key>yTranslation</key>
+			<integer>100</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>3</integer>
+		</dict>
+		<key>09 Static Marble 4</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>950</integer>
+			<key>yTranslation</key>
+			<integer>100</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>4</integer>
+		</dict>
+		<key>10 Static Marble 5</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>1000</integer>
+			<key>yTranslation</key>
+			<integer>100</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>5</integer>
+		</dict>
+		<key>11 Score</key>
+		<dict>
+			<key>type</key>
+			<string>score</string>
+		</dict>
+		<key>12 Pause Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>pause</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>45</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-210</integer>
+			<key>yTranslation</key>
+			<integer>-130</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Level 2</key>
+	<dict>
+		<key>01 Level 2 Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>Level2Atlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Marble Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>MarbleAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>03 Button Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>ButtonAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>04 Level 2 Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>level 2 screen</string>
+			<key>background type</key>
+			<string>dynamic</string>
+			<key>xScale</key>
+			<integer>1920</integer>
+			<key>yScale</key>
+			<integer>1280</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>640</integer>
+			<key>yTranslation</key>
+			<integer>480</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 Hero Marble</key>
+		<dict>
+			<key>type</key>
+			<string>marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-120</integer>
+			<key>yTranslation</key>
+			<integer>-30</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>06 Static Marble 1</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>800</integer>
+			<key>yTranslation</key>
+			<integer>76</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>1</integer>
+		</dict>
+		<key>07 Static Marble 2</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>850</integer>
+			<key>yTranslation</key>
+			<integer>120</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>2</integer>
+		</dict>
+		<key>08 Static Marble 3</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>900</integer>
+			<key>yTranslation</key>
+			<integer>175</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>3</integer>
+		</dict>
+		<key>09 Static Marble 4</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>950</integer>
+			<key>yTranslation</key>
+			<integer>220</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>4</integer>
+		</dict>
+		<key>10 Static Marble 5</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>1000</integer>
+			<key>yTranslation</key>
+			<integer>270</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>5</integer>
+		</dict>
+		<key>11 Ufo</key>
+		<dict>
+			<key>type</key>
+			<string>ufo</string>
+			<key>xScale</key>
+			<integer>70</integer>
+			<key>yScale</key>
+			<integer>50</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>120</integer>
+			<key>yTranslation</key>
+			<integer>400</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>12 Ufo 2</key>
+		<dict>
+			<key>type</key>
+			<string>ufo</string>
+			<key>xScale</key>
+			<integer>70</integer>
+			<key>yScale</key>
+			<integer>50</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>300</integer>
+			<key>yTranslation</key>
+			<integer>350</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>13 Wall 1</key>
+		<dict>
+			<key>type</key>
+			<string>wall</string>
+			<key>xScale</key>
+			<integer>60</integer>
+			<key>yScale</key>
+			<integer>20</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>645</integer>
+			<key>yTranslation</key>
+			<integer>30</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>14 Wall 2</key>
+		<dict>
+			<key>type</key>
+			<string>wall</string>
+			<key>xScale</key>
+			<integer>60</integer>
+			<key>yScale</key>
+			<integer>20</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>783</integer>
+			<key>yTranslation</key>
+			<integer>120</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>15 Wall 3</key>
+		<dict>
+			<key>type</key>
+			<string>wall</string>
+			<key>xScale</key>
+			<integer>60</integer>
+			<key>yScale</key>
+			<integer>20</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>920</integer>
+			<key>yTranslation</key>
+			<integer>220</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>16 Wall 4</key>
+		<dict>
+			<key>type</key>
+			<string>wall</string>
+			<key>xScale</key>
+			<integer>60</integer>
+			<key>yScale</key>
+			<integer>20</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>1140</integer>
+			<key>yTranslation</key>
+			<integer>320</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>17 Score</key>
+		<dict>
+			<key>type</key>
+			<string>score</string>
+		</dict>
+		<key>18 Pause Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>pause</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>45</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-210</integer>
+			<key>yTranslation</key>
+			<integer>-130</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Level 3</key>
+	<dict>
+		<key>01 Level 3 Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>Level3Atlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Marble Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>MarbleAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>03 Button Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>ButtonAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>04 Level 3 Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>level 3 screen</string>
+			<key>background type</key>
+			<string>dynamic</string>
+			<key>xScale</key>
+			<integer>1920</integer>
+			<key>yScale</key>
+			<integer>1280</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>640</integer>
+			<key>yTranslation</key>
+			<integer>480</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 Hero Marble</key>
+		<dict>
+			<key>type</key>
+			<string>marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-120</integer>
+			<key>yTranslation</key>
+			<integer>-30</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>06 Static Marble 1</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>920</integer>
+			<key>yTranslation</key>
+			<integer>600</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>1</integer>
+		</dict>
+		<key>07 Static Marble 2</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>970</integer>
+			<key>yTranslation</key>
+			<integer>650</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>2</integer>
+		</dict>
+		<key>08 Static Marble 3</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>1045</integer>
+			<key>yTranslation</key>
+			<integer>700</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>3</integer>
+		</dict>
+		<key>09 Static Marble 4</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>1120</integer>
+			<key>yTranslation</key>
+			<integer>650</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>4</integer>
+		</dict>
+		<key>10 Static Marble 5</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>1170</integer>
+			<key>yTranslation</key>
+			<integer>600</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>5</integer>
+		</dict>
+		<key>11 Star 1</key>
+		<dict>
+			<key>type</key>
+			<string>star</string>
+			<key>xScale</key>
+			<integer>50</integer>
+			<key>yScale</key>
+			<integer>50</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>120</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>12 Star 2</key>
+		<dict>
+			<key>type</key>
+			<string>star</string>
+			<key>xScale</key>
+			<integer>70</integer>
+			<key>yScale</key>
+			<integer>70</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>230</integer>
+			<key>yTranslation</key>
+			<integer>150</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>13 Star 3</key>
+		<dict>
+			<key>type</key>
+			<string>star</string>
+			<key>xScale</key>
+			<integer>60</integer>
+			<key>yScale</key>
+			<integer>60</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>420</integer>
+			<key>yTranslation</key>
+			<integer>130</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>16 Wormhole In</key>
+		<dict>
+			<key>type</key>
+			<string>wormhole</string>
+			<key>wormhole type</key>
+			<string>in</string>
+			<key>xScale</key>
+			<integer>80</integer>
+			<key>yScale</key>
+			<integer>80</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>120</integer>
+			<key>yTranslation</key>
+			<integer>100</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>17 Wormhole Out</key>
+		<dict>
+			<key>type</key>
+			<string>wormhole</string>
+			<key>wormhole type</key>
+			<string>out</string>
+			<key>xScale</key>
+			<integer>80</integer>
+			<key>yScale</key>
+			<integer>80</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>630</integer>
+			<key>yTranslation</key>
+			<integer>620</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>20 Score</key>
+		<dict>
+			<key>type</key>
+			<string>score</string>
+		</dict>
+		<key>21 Pause Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>pause</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>45</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-210</integer>
+			<key>yTranslation</key>
+			<integer>-130</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Level 4</key>
+	<dict>
+		<key>01 Level 4 Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>Level4Atlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Marble Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>MarbleAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>03 Button Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>ButtonAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>04 Level 4 Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>level 4 screen</string>
+			<key>background type</key>
+			<string>dynamic</string>
+			<key>xScale</key>
+			<integer>1920</integer>
+			<key>yScale</key>
+			<integer>1280</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>640</integer>
+			<key>yTranslation</key>
+			<integer>480</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 Hero Marble</key>
+		<dict>
+			<key>type</key>
+			<string>marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-120</integer>
+			<key>yTranslation</key>
+			<integer>-30</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>06 Static Marble 1</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>1060</integer>
+			<key>yTranslation</key>
+			<integer>260</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>1</integer>
+		</dict>
+		<key>07 Static Marble 2</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>1120</integer>
+			<key>yTranslation</key>
+			<integer>330</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>2</integer>
+		</dict>
+		<key>08 Static Marble 3</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>1150</integer>
+			<key>yTranslation</key>
+			<integer>390</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>3</integer>
+		</dict>
+		<key>09 Static Marble 4</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>1185</integer>
+			<key>yTranslation</key>
+			<integer>470</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>4</integer>
+		</dict>
+		<key>10 Static Marble 5</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>1220</integer>
+			<key>yTranslation</key>
+			<integer>530</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>5</integer>
+		</dict>
+		<key>11 Marble Booster</key>
+		<dict>
+			<key>type</key>
+			<string>marble booster</string>
+			<key>xScale</key>
+			<integer>50</integer>
+			<key>yScale</key>
+			<integer>60</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>0</integer>
+			<key>yTranslation</key>
+			<integer>120</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>11 Score</key>
+		<dict>
+			<key>type</key>
+			<string>score</string>
+		</dict>
+		<key>12 Pause Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>pause</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>45</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-210</integer>
+			<key>yTranslation</key>
+			<integer>-130</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>Level 5</key>
+	<dict>
+		<key>01 Level 5 Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>Level5Atlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>02 Marble Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>MarbleAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>03 Button Atlas</key>
+		<dict>
+			<key>name</key>
+			<string>ButtonAtlas</string>
+			<key>type</key>
+			<string>texture atlas</string>
+		</dict>
+		<key>04 Level 5 Background</key>
+		<dict>
+			<key>type</key>
+			<string>background</string>
+			<key>name</key>
+			<string>level 5 screen</string>
+			<key>background type</key>
+			<string>dynamic</string>
+			<key>xScale</key>
+			<integer>1920</integer>
+			<key>yScale</key>
+			<integer>1280</integer>
+			<key>zScale </key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>640</integer>
+			<key>yTranslation</key>
+			<integer>480</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>05 Hero Marble</key>
+		<dict>
+			<key>type</key>
+			<string>marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-120</integer>
+			<key>yTranslation</key>
+			<integer>-30</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>06 Static Marble 1</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>700</integer>
+			<key>yTranslation</key>
+			<integer>-140</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>1</integer>
+		</dict>
+		<key>07 Static Marble 2</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>732</integer>
+			<key>yTranslation</key>
+			<integer>-140</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>2</integer>
+		</dict>
+		<key>08 Static Marble 3</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>764</integer>
+			<key>yTranslation</key>
+			<integer>-140</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>3</integer>
+		</dict>
+		<key>09 Static Marble 4</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>796</integer>
+			<key>yTranslation</key>
+			<integer>-140</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>4</integer>
+		</dict>
+		<key>10 Static Marble 5</key>
+		<dict>
+			<key>type</key>
+			<string>static marble</string>
+			<key>xScale</key>
+			<integer>30</integer>
+			<key>yScale</key>
+			<integer>30</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>828</integer>
+			<key>yTranslation</key>
+			<integer>-140</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+			<key>position</key>
+			<integer>5</integer>
+		</dict>
+		<key>11 Arrow 1</key>
+		<dict>
+			<key>type</key>
+			<string>arrow</string>
+			<key>arrow type</key>
+			<string>right</string>
+			<key>xScale</key>
+			<integer>40</integer>
+			<key>yScale</key>
+			<integer>8</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>300</integer>
+			<key>yTranslation</key>
+			<integer>0</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>12 Arrow 2</key>
+		<dict>
+			<key>type</key>
+			<string>arrow</string>
+			<key>arrow type</key>
+			<string>down</string>
+			<key>xScale</key>
+			<integer>8</integer>
+			<key>yScale</key>
+			<integer>40</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>120</integer>
+			<key>yTranslation</key>
+			<integer>-100</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+		<key>15 Score</key>
+		<dict>
+			<key>type</key>
+			<string>score</string>
+		</dict>
+		<key>16 Pause Button</key>
+		<dict>
+			<key>type</key>
+			<string>button</string>
+			<key>name</key>
+			<string>pause</string>
+			<key>xScale</key>
+			<integer>45</integer>
+			<key>yScale</key>
+			<integer>45</integer>
+			<key>zScale</key>
+			<integer>1</integer>
+			<key>xTranslation</key>
+			<integer>-210</integer>
+			<key>yTranslation</key>
+			<integer>-130</integer>
+			<key>zTranslation</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

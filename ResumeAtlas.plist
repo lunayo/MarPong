@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>resume screen</string>
+		<key>height</key>
+		<integer>320</integer>
+		<key>width</key>
+		<integer>480</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>resume button up</string>
+		<key>height</key>
+		<integer>56</integer>
+		<key>width</key>
+		<integer>56</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>344</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>mainmenu button up</string>
+		<key>height</key>
+		<integer>56</integer>
+		<key>width</key>
+		<integer>56</integer>
+		<key>xLocation</key>
+		<integer>77</integer>
+		<key>yLocation</key>
+		<integer>344</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>resume button down</string>
+		<key>height</key>
+		<integer>56</integer>
+		<key>width</key>
+		<integer>56</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>400</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>mainmenu button down</string>
+		<key>height</key>
+		<integer>56</integer>
+		<key>width</key>
+		<integer>56</integer>
+		<key>xLocation</key>
+		<integer>77</integer>
+		<key>yLocation</key>
+		<integer>400</integer>
+	</dict>
+</array>
+</plist>

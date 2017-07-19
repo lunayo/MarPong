@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>star 1</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>star 2</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>60</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>star 3</string>
+		<key>height</key>
+		<integer>50</integer>
+		<key>width</key>
+		<integer>50</integer>
+		<key>xLocation</key>
+		<integer>120</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

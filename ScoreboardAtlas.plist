@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>score screen</string>
+		<key>height</key>
+		<integer>320</integer>
+		<key>width</key>
+		<integer>480</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>replay button up</string>
+		<key>height</key>
+		<integer>57</integer>
+		<key>width</key>
+		<integer>57</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>350</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>nextlevel button up</string>
+		<key>height</key>
+		<integer>57</integer>
+		<key>width</key>
+		<integer>57</integer>
+		<key>xLocation</key>
+		<integer>60</integer>
+		<key>yLocation</key>
+		<integer>350</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>high angle</string>
+		<key>height</key>
+		<integer>43</integer>
+		<key>width</key>
+		<integer>43</integer>
+		<key>xLocation</key>
+		<integer>120</integer>
+		<key>yLocation</key>
+		<integer>350</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>fast switch</string>
+		<key>height</key>
+		<integer>43</integer>
+		<key>width</key>
+		<integer>43</integer>
+		<key>xLocation</key>
+		<integer>179</integer>
+		<key>yLocation</key>
+		<integer>350</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>just right</string>
+		<key>height</key>
+		<integer>43</integer>
+		<key>width</key>
+		<integer>43</integer>
+		<key>xLocation</key>
+		<integer>231</integer>
+		<key>yLocation</key>
+		<integer>350</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>replay button down</string>
+		<key>height</key>
+		<integer>57</integer>
+		<key>width</key>
+		<integer>57</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>413</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>nextlevel button down</string>
+		<key>height</key>
+		<integer>57</integer>
+		<key>width</key>
+		<integer>57</integer>
+		<key>xLocation</key>
+		<integer>60</integer>
+		<key>yLocation</key>
+		<integer>413</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>highangle lock</string>
+		<key>height</key>
+		<integer>43</integer>
+		<key>width</key>
+		<integer>43</integer>
+		<key>xLocation</key>
+		<integer>120</integer>
+		<key>yLocation</key>
+		<integer>411</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>fastswitch lock</string>
+		<key>height</key>
+		<integer>43</integer>
+		<key>width</key>
+		<integer>43</integer>
+		<key>xLocation</key>
+		<integer>179</integer>
+		<key>yLocation</key>
+		<integer>411</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>justright lock</string>
+		<key>height</key>
+		<integer>43</integer>
+		<key>width</key>
+		<integer>43</integer>
+		<key>xLocation</key>
+		<integer>231</integer>
+		<key>yLocation</key>
+		<integer>411</integer>
+	</dict>
+</array>
+</plist>

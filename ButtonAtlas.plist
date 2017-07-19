@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>marbleon button</string>
+		<key>height</key>
+		<integer>45</integer>
+		<key>width</key>
+		<integer>45</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>marbleoff button</string>
+		<key>height</key>
+		<integer>45</integer>
+		<key>width</key>
+		<integer>45</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>50</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>back button up</string>
+		<key>height</key>
+		<integer>94</integer>
+		<key>width</key>
+		<integer>94</integer>
+		<key>xLocation</key>
+		<integer>48</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>back button down</string>
+		<key>height</key>
+		<integer>94</integer>
+		<key>width</key>
+		<integer>94</integer>
+		<key>xLocation</key>
+		<integer>146</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>pause button up</string>
+		<key>height</key>
+		<integer>94</integer>
+		<key>width</key>
+		<integer>94</integer>
+		<key>xLocation</key>
+		<integer>48</integer>
+		<key>yLocation</key>
+		<integer>103</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>pause button down</string>
+		<key>height</key>
+		<integer>94</integer>
+		<key>width</key>
+		<integer>94</integer>
+		<key>xLocation</key>
+		<integer>146</integer>
+		<key>yLocation</key>
+		<integer>103</integer>
+	</dict>
+</array>
+</plist>

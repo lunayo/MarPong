@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>jar screen</string>
+		<key>height</key>
+		<integer>320</integer>
+		<key>width</key>
+		<integer>480</integer>
+		<key>xLocation</key>
+		<integer>0</integer>
+		<key>yLocation</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>zodiac button up</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>380</integer>
+		<key>xLocation</key>
+		<integer>8</integer>
+		<key>yLocation</key>
+		<integer>397</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>back button up</string>
+		<key>height</key>
+		<integer>51</integer>
+		<key>width</key>
+		<integer>51</integer>
+		<key>xLocation</key>
+		<integer>401</integer>
+		<key>yLocation</key>
+		<integer>401</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>rainbow button up</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>380</integer>
+		<key>xLocation</key>
+		<integer>8</integer>
+		<key>yLocation</key>
+		<integer>478</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>back button down</string>
+		<key>height</key>
+		<integer>51</integer>
+		<key>width</key>
+		<integer>51</integer>
+		<key>xLocation</key>
+		<integer>401</integer>
+		<key>yLocation</key>
+		<integer>453</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>nature button up</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>380</integer>
+		<key>xLocation</key>
+		<integer>7</integer>
+		<key>yLocation</key>
+		<integer>558</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>zodiac button down</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>380</integer>
+		<key>xLocation</key>
+		<integer>8</integer>
+		<key>yLocation</key>
+		<integer>638</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>rainbow button down</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>380</integer>
+		<key>xLocation</key>
+		<integer>8</integer>
+		<key>yLocation</key>
+		<integer>719</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>nature button down</string>
+		<key>height</key>
+		<integer>70</integer>
+		<key>width</key>
+		<integer>380</integer>
+		<key>xLocation</key>
+		<integer>7</integer>
+		<key>yLocation</key>
+		<integer>799</integer>
+	</dict>
+</array>
+</plist>
